@@ -1,9 +1,5 @@
-function reverseString(str) {
-    var reversed = "";
-    for (var i = str.length - 1; i >= 0; i--) {
-        reversed += str[i];
-    }
-    return reversed;
-}
-var reversed = reverseString("Snazzy");
-console.log(reversed);
+"use strict";
+let age = 20;
+if (age < 50)
+    age += 10;
+//# sourceMappingURL=main.js.map
